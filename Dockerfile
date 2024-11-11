@@ -1,5 +1,4 @@
 FROM nikolaik/python-nodejs:python3.10-nodejs17
-RUN apt install git curl python3-pip ffmpeg -y
 RUN mkdir /rocks/
 WORKDIR /rocks/
 COPY . /rocks/
